@@ -1,0 +1,96 @@
+	.head{
+		color: #ffffff;
+		text-align: center;
+	}
+	ul{
+		color: #ffffff;
+	}
+	video{
+		display:none;
+		position: fixed;  
+		right: 0px;  
+		bottom: 0px;  
+		min-width: 100%;  
+		min-height: 100%;  
+		height: auto;  
+		width: auto;  
+		z-index:-11
+    }  
+	#floor{
+		display:none;
+		position: fixed;  
+		right: 0px;  
+		bottom: 0px;  
+		min-width: 100%;  
+		min-height: 100%;  
+		height: auto;  
+		width: auto;  
+		z-index:-10;
+	}
+	body{
+		font: 100% Courier New;
+		margin: 20px;
+		line-height: 26px;
+		background-image:url("bg07.jpg");
+		background-attachment:fixed;
+		background-size: cover;
+		z-index:0;
+	}
+	.navi{
+		width:210px;
+		float:left;
+		background-color: rgba(0, 0, 0, .3);
+	}
+	.main{
+		color: #92a8d1;
+		background-color: rgba(0, 0, 0, .5);
+		margin:0 210px;
+	}
+	.idk{
+		color: #ffffff;
+		padding: 10px;
+		width: 180px;
+		bottom: 0;
+		top: 0;
+		right: 0;
+		position: absolute;
+		background-color: rgba(0, 0, 0, .3);
+	}
+	.txtnbtn{
+		text-align:center;
+	}
+	.txtnbtn h2{
+		color:#ffffff;
+	}
+	.todolist div{
+		text-align:center;
+	}
+	.todolist div span{
+		display: inline-block;
+		font:Courier New;
+		font-size:20px;
+		color:#ffffff;
+		background-color: rgba(0, 0, 0, .3);
+		height:30px;
+		width:200px;
+		padding:5px 0;
+		border-width:1px 0 1px 5px;
+		border-style:solid;
+		border-color:rgba(0, 0, 0, .5);
+	}
+	.todolist div span:hover{
+		background-color: rgba(255, 255, 255, .1);
+	}
+	.description {
+		display: none;
+		position: absolute;
+		padding: 10px;
+		font-family: sans-serif;
+		background-color: #000;
+		color: #fff;
+		opacity: 0.75;
+		text-align: center;
+	}
+	.foot {
+		text-align: center;
+	}

@@ -1,13 +1,12 @@
 //at bottom right
 <div class="txtnbtn">
-			<h2>To do list</h2>
+			<h2>New announces here</h2>
 			<input type="text" id="newplan" placeholder="Show me your schedule">
-			<button>Add schedule</button>
+			<button>Add announce</button>
 </div>
 <div class="todolist">
-			<div><span>Ori</span></div>
-			<div><span>Naru</span></div>
-			<div><span>Gumo</span></div>
-			<div><span>Kuro</span></div>
+			<div><span>Sports</span></div>
+			<div><span>Concert</span></div>
+			<div><span>Party</span></div>
+			<div><span>Part-time</span></div>
 </div>
-
