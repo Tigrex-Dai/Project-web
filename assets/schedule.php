@@ -1,4 +1,3 @@
-//at bottom right
 <div class="txtnbtn">
 			<h2>New announces here</h2>
 			<input type="text" id="newplan" placeholder="Show me your schedule">

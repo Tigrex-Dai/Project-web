@@ -1,5 +1,4 @@
-//on the right
-<div class="navi">
+<div class="lang">
 			<ul>
 				<li>
 					<a href="fr">Français</a>

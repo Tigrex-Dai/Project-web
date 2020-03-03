@@ -1,4 +1,4 @@
-	.head{
+	h1{
 		color: #ffffff;
 		text-align: center;
 	}
@@ -31,7 +31,7 @@
 		font: 100% Courier New;
 		margin: 20px;
 		line-height: 26px;
-		background-image:url("bg07.jpg");
+		background-image:url(bg.jpg);
 		background-attachment:fixed;
 		background-size: cover;
 		z-index:0;
@@ -40,20 +40,27 @@
 		width:210px;
 		float:left;
 		background-color: rgba(0, 0, 0, .3);
+		position: -webkit-sticky;
+		position: sticky;
+		top:0;
 	}
 	.main{
 		color: #92a8d1;
 		background-color: rgba(0, 0, 0, .5);
 		margin:0 210px;
 	}
-	.idk{
+	.lang{
+		float:right;
 		color: #ffffff;
 		padding: 10px;
-		width: 180px;
-		bottom: 0;
+		width: 190px;
+		position: -webkit-sticky;
+		position: sticky;
+		top:0;
+		/*bottom: 0;
 		top: 0;
 		right: 0;
-		position: absolute;
+		position: absolute;*/
 		background-color: rgba(0, 0, 0, .3);
 	}
 	.txtnbtn{
@@ -93,4 +100,16 @@
 	}
 	.foot {
 		text-align: center;
+	}
+	a:link {
+		color:#ffffff;
+	}
+	a:visited {
+		color:#ffffff;
+	}
+	a:hover {
+		color:#eeeeff;
+	}
+	a:active {
+		color:yellow;
 	}

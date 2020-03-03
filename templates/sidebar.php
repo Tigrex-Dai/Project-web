@@ -1,8 +1,10 @@
-//on the left (for side layer
 <div class="navi">
     <ul>
         <li>
-            <a href="#ptop">To Bottom</a>
+            <a href="#fakebot">To Bottom</a>
+        </li>
+        <li>
+            <a href="#faketop">To Top</a>
         </li>
         <li>
             <a href="https://ernest.unistra.fr">To Ernest</a>
