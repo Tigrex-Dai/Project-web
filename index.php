@@ -14,6 +14,11 @@
 		<?php include('templates/sidebar.php'); ?>
 		<?php include('templates/language.php'); ?>
 		<div class="main">
+			<div class="showcase">
+				<span>This is a test box.</span>
+				<span>This is another test box.</span>
+				
+			</div>
 			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dapibus, felis vitae ultrices luctus, lacus lectus iaculis libero, quis porttitor orci velit placerat arcu. In mauris orci, luctus non elementum eu, imperdiet a sem. Aenean tempus, tortor elementum aliquet rutrum, diam magna aliquam ante, ac eleifend sem nibh vel mi. Curabitur molestie magna nisl, in scelerisque ante condimentum vel. Praesent lobortis massa ut arcu mattis, sed bibendum ipsum aliquam. Mauris auctor tincidunt mi, vel lobortis mi laoreet non. In vulputate sodales tortor. Morbi leo elit, porta nec lobortis id, aliquet a augue. Suspendisse rhoncus ligula eu mauris pharetra aliquam. Vestibulum quam diam, vulputate sit amet magna vitae, gravida ultricies lorem. Proin vitae magna sit amet arcu eleifend imperdiet at eu leo. Sed at facilisis enim. Integer elementum, lectus eget ornare ultrices, sem nibh lacinia sem, a commodo dolor libero quis risus. </p>
 			<p> Suspendisse gravida nunc et felis vehicula euismod. Nam fermentum felis quis arcu euismod porta. Aliquam sed viverra ante, at tincidunt tellus. Mauris nec dapibus erat. Phasellus eget enim sed lacus finibus rutrum ut eu nulla. Sed pretium venenatis urna, a elementum quam pulvinar vitae. Nunc in tristique nunc. Duis rutrum ultricies purus, vitae posuere arcu consectetur ac. </p>
 			<p> Maecenas scelerisque arcu sollicitudin, sodales ipsum nec, fermentum massa. Pellentesque viverra imperdiet tempus. Vivamus pharetra luctus tellus, pretium mollis tortor. Phasellus hendrerit est non ligula cursus dapibus. Ut ornare erat eget sagittis ornare. Suspendisse placerat pharetra mauris. Integer facilisis, nulla sit amet vestibulum interdum, diam nibh lobortis enim, sed elementum massa urna sed eros. </p>

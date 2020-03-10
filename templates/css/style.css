@@ -49,6 +49,10 @@
 		background-color: rgba(0, 0, 0, .5);
 		margin:0 210px;
 	}
+	.showcase span{
+		
+		background-color: rgba(0, 0, 0, .7);
+	}
 	.lang{
 		float:right;
 		color: #ffffff;
