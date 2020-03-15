@@ -1,5 +1,17 @@
 # Programmation Web 2 - L2S4 - 2020
 
+## Current Process
+
+Pages (All clear):
+1.Index
+2.List of enonce
+3.Form
+
+Functions (to do):
+1.Connect form and list
+2.multi-lang
+3...
+
 ## Utilisation du projet
 
 * Faire un "fork" du projet dans votre Gitlab universitaire ;
