@@ -22,6 +22,7 @@
 	</script>
 </head>
 <body>
+    <link href="templates/css/style-form.css" rel="stylesheet" type="text/css" >
 	<form name="myForm" onsubmit="return validateForm()" method="post">
 		<label for="myname">Mon nom :</label>
 		<br/>
