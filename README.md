@@ -7,10 +7,10 @@ Pages (All clear):
 2.List of enonce
 3.Form
 
-Functions (to do):
-1.Connect form and list
-2.multi-lang
-3...
+Fonctions (All clear):
+SQLite
+multi-langues
+
 
 ## Utilisation du projet
 
