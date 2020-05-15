@@ -14,11 +14,9 @@
 	.fav_list{
 		min-height: 95%;
 		padding: 0 32px 30px;
-		margin-top: 50px;
-		margin-right: 50px;
-		margin-left: 200px;
-		background-color: #fff;
-		box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+		margin:0 210px;
+		background-color: rgba(0,0,0,.5);
+		box-shadow: 0 2px 4px 0 rgba(.5,.5,.5,.05);
 	}
 	.fav_list_box{
 		box-sizing: border-box;
@@ -27,6 +25,7 @@
 		zoom: 1;
 	}
 	.fav_list_title{
+		color:mediumpurple;
 		height: 90px;
 		line-height: 90px;
 		/*border-bottom: 1px solid #e0e0e0;*/
@@ -37,7 +36,7 @@
 	}
 	.fav_num{
 		font-size: 14px;
-		color: #4d4d4d;
+		color: #ffffff;
 		margin-top: 30px;
 		float: right;
 	}
@@ -65,7 +64,7 @@
 		line-height: 24px;
 		font-size: 16px;
 		vertical-align: middle;
-		color: #4d4d4d;
+		color:#92a8d1;
 		text-decoration: none;
 		text-overflow: ellipsis;
 		white-space: nowrap;
@@ -85,13 +84,20 @@
 		vertical-align: middle;
 		display: inline-block;
 	}
-	.cancel_fav{
-		font-style: normal;
-		color: #999;
-		vertical-align: middle;
-		cursor: pointer;
-		display: inline-block;
-	}
 	.my_fav_list_a:hover{
 		color: red;
+	}
+	.lang{
+		float:right;
+		color: #ffffff;
+		padding: 10px;
+		width: 190px;
+		position: -webkit-sticky;
+		position: sticky;
+		top:0;
+		/*bottom: 0;
+        top: 0;
+        right: 0;
+        position: absolute;*/
+		background-color: rgba(0, 0, 0, .3);
 	}
