@@ -1,32 +1,26 @@
-	h1{
+	.col_6 h1{
 		color: #ffffff;
-		text-align: center;
+		text-align: left;
+		font-size: 50px;
 	}
 	ul{
 		color: #ffffff;
 	}
-	video{
-		display:none;
-		position: fixed;  
-		right: 0px;  
-		bottom: 0px;  
-		min-width: 100%;  
-		min-height: 100%;  
-		height: auto;  
-		width: auto;  
-		z-index:-11
-    }  
-	#floor{
-		display:none;
-		position: fixed;  
-		right: 0px;  
-		bottom: 0px;  
-		min-width: 100%;  
-		min-height: 100%;  
-		height: auto;  
-		width: auto;  
-		z-index:-10;
+
+	.banner{
+		height: 400px;
+		margin: 0px 210px;
+		align-content: center;
+		overflow:hidden;
 	}
+
+	.col_6 p{
+		font-family: 'Varela Round', Helvetica, Arial, sans-serif;
+		font-size:20px;
+		color:darkgrey;
+		line-height:20%;
+	}
+
 	body{
 		font: 100% Courier New;
 		margin: 20px;
@@ -49,9 +43,35 @@
 		background-color: rgba(0, 0, 0, .5);
 		margin:0 210px;
 	}
-	.showcase span{
-		
-		background-color: rgba(0, 0, 0, .7);
+	.main h2{
+		color:mediumpurple;
+		margin-left: 10px;
+	}
+	.main .col_4{
+		background-color: rgba(0, 0, 0, .5);
+	}
+	.main .col_4 p{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+	}
+	.pic{
+		text-align: center;
+		margin-top: 20px;
+	}
+	.linklst{
+		text-align: right;
+		margin-right: 10px;
+	}
+	.showcase{
+		background-color: rgba(0, 0, 0, .3);
+	}
+
+	.tolist{
+		text-align: center;
+		border-top-width: 50px;
 	}
 	.lang{
 		float:right;
@@ -73,8 +93,22 @@
 	.txtnbtn h2{
 		color:#ffffff;
 	}
-	.todolist div{
+	.todolist div, .lstbutton{
 		text-align:center;
+	}
+
+	.lstbutton span{
+		display: inline-block;
+		font-family: 'Varela Round', Helvetica, Arial, sans-serif;
+		font-size:20px;
+		color:#ffffff;
+		background-color: rgba(0, 0, 0, .3);
+		height:30px;
+		width:300px;
+		padding:5px 0;
+		border-width:1px 0;
+		border-style:solid;
+		border-color:rgba(0, 0, 0, .5);
 	}
 	.todolist div span{
 		display: inline-block;
@@ -91,6 +125,22 @@
 	}
 	.todolist div span:hover{
 		background-color: rgba(255, 255, 255, .1);
+	}
+	ul.alt{
+		margin-top: 50px;
+	}
+
+	ul.alt li{
+		height: 50px;
+		list-style-type:none;
+		border-top:1px dotted #ccc;
+		border-bottom:1px dotted #ccc;
+		margin:0 0 -1px 0;
+		background:url(icon-arrow-right.png) no-repeat 5px 0.7em;
+		padding-left:20px;
+	}
+	.contact{
+		width: 200px;
 	}
 	.description {
 		display: none;
