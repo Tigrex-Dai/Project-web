@@ -1,3 +1,4 @@
+<?php include "config.php"; ?>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -7,13 +8,25 @@
 </head>
 <body>
 
-
+<div class="lang">
+			<ul>
+				<li>
+					<a href="list.php?lang=fr">Français</a><span><img src="templates/fr.png" width="15px" height="15px"></span>
+				</li>
+				<li>
+					<a href="list.php?lang=en">English</a><span><img src="templates/en.png" width="15px" height="15px"></span>
+				</li>
+                <li>
+					<a href="list.php?lang=zh">中文</a><span><img src="templates/zh.png" width="15px" height="15px"></span>
+				</li>
+			</ul>
+</div>
 <div class="fav_list">
     <div class="fav_list_box">
         <div  class="fav_list_title">
-            <h3 class="fav_list_title_h3">我的收藏</h3>
+            <h2 class="fav_list_title_h3"><?php echo $lang['act'] ?></h2>
             <div class="fav_num">
-                共<span >5</span>条
+                Total <span >5</span> record(s)
             </div>
         </div>
         <div  class="my_fav_con">
@@ -21,47 +34,42 @@
                 <ul  class="my_fav_list">
                     <li class="my_fav_list_li" id="">
                         <a  class="my_fav_list_a" href="" target="_blank">
-                            （电脑故障）2.电脑突然就找不到网络，上不了网
+                            Test activity 1
                         </a>
                         <label class="my_fav_list_label">
                             <span >2019-04-08</span>
-                            <a  class="cancel_fav"><em>取消</em></a>
                         </label>
                     </li>
                     <li class="my_fav_list_li" id="">
                         <a  class="my_fav_list_a" href="" target="_blank">
-                            （电脑故障）2.电脑突然就找不到网络，上不了网
+                            Test activity 2
                         </a>
                         <label class="my_fav_list_label">
                             <span >2019-04-08</span>
-                            <a  class="cancel_fav"><em>取消</em></a>
                         </label>
                     </li>
                     <li class="my_fav_list_li" id="">
                         <a  class="my_fav_list_a" href="" target="_blank">
-                            （电脑故障）2.电脑突然就找不到网络，上不了网
+                            Test activity 3
                         </a>
                         <label class="my_fav_list_label">
                             <span >2019-04-08</span>
-                            <a  class="cancel_fav"><em>取消</em></a>
                         </label>
                     </li>
                     <li class="my_fav_list_li" id="">
                         <a  class="my_fav_list_a" href="" target="_blank">
-                            （电脑故障）2.电脑突然就找不到网络，上不了网
+                            Test activity 4
                         </a>
                         <label class="my_fav_list_label">
                             <span >2019-04-08</span>
-                            <a  class="cancel_fav"><em>取消</em></a>
                         </label>
                     </li>
                     <li class="my_fav_list_li" id="">
                         <a  class="my_fav_list_a" href="" target="_blank">
-                            （电脑故障）2.电脑突然就找不到网络，上不了网
+                            Test activity 5
                         </a>
                         <label class="my_fav_list_label">
                             <span >2019-04-08</span>
-                            <a  class="cancel_fav"><em>取消</em></a>
                         </label>
                     </li>
 
