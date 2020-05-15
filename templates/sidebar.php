@@ -1,22 +1,19 @@
 <div class="navi">
     <ul>
         <li>
-            <a href="#fakebot">To Bottom</a>
+            <a href="#fakebot"><?php echo $lang['bt1'] ?></a>
         </li>
         <li>
-            <a href="#faketop">To Top</a>
+            <a href="#faketop"><?php echo $lang['bt2'] ?></a>
         </li>
         <li>
-            <a href="https://ernest.unistra.fr">To Ernest</a>
+            <a href="https://ernest.unistra.fr"><?php echo $lang['bt3'] ?></a>
         </li>
-        <li class="recall">
-            <a href="#fakebot">Recall our logo!</a>
+        <li>
+            <a href="#tolst"><?php echo $lang['bt4'] ?></a>
         </li>
         <li id="showbg">
-            Show background
-        </li>
-        <li id="hidebg">
-            Hide background
+            <a href="#toform"><?php echo $lang['bt5'] ?></a>
         </li>
     </ul>
 </div>
