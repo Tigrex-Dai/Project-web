@@ -1,7 +1,9 @@
+
+<script src="templates/code/code.js"></script>
 <div class="txtnbtn">
-			<h2>New announces here</h2>
-			<input type="text" id="newplan" placeholder="Show me your schedule">
-			<button>Add announce</button>
+			<h2><?php echo $lang['plan'] ?></h2>
+			<input type="text" id="newplan" placeholder="Show me your plan">
+			<button><?php echo $lang['addp'] ?></button>
 </div>
 <div class="todolist">
 			<div><span>Sports</span></div>
